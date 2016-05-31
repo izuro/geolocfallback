@@ -15,20 +15,20 @@ Credits go to @gogson on stackoverflow
 ##Usage:
 1. Get Google Maps API Key - https://developers.google.com/maps/documentation/geolocation/intro
 2. include 
-  `<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  `<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>  
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>  
   <script type="text/javascript" src="jquery.geoloc-fallback.js" />`
 3. Init object:
   
-  `var geolocfb = $('body').geolocfb({
-    apikey: YOUR_API_KEY
-    // , success: function(position){}      // optional
-    // , error: function(error, errorMsg){}   // optional
+  `var geolocfb = $('body').geolocfb({  
+    apikey: YOUR_API_KEY  
+    // , success: function(position){}      // optional  
+    // , error: function(error, errorMsg){}   // optional  
   });`
 
 4. Use geolocfb, overwrite callback functions if needed
 
-  `geolocfb.geoloc(
-    function(position){},         //optional
-    function(error, errorMsg){}   //optional
+  `geolocfb.geoloc(  
+    function(position){},         //optional  
+    function(error, errorMsg){}   //optional  
   );`
